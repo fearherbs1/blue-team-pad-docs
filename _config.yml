@@ -1,11 +1,9 @@
 title: Blue Team Pad Documentation 
 description: The documentation site for the Blue Team Pad
 theme: just-the-docs
+color_scheme: dark
 
 url: https://fearherbs1.github.io/blue-team-pad-docs
 
 aux_links:
   Blue Team Pad Repo: https://github.com/fearherbs1/blue-team-pad
-
-color_scheme: dark
-
