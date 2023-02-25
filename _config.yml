@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Blue Team Pad Documentation 
+description: The documentation site for the Blue Team Pad
 theme: just-the-docs
 
 url: https://fearherbs1.github.io/blue-team-pad-docs
 
 aux_links:
-  Template Repository: https://github.com/fearherbs1/blue-team-pad-docs
+  Blue Team Pad Repo: https://github.com/fearherbs1/blue-team-pad
+
+color_scheme: dark
+
