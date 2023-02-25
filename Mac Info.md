@@ -16,7 +16,7 @@ As you may already know, Macs use `command (⌘)` as their windows & linux `cont
 
 While this does not pose any issue on its own, for maximum compatibility of macros across operating systems, it is recommended to rebind the modifier keys within mac `System Settings` app to the following:
 
-![apple settings page](images/mac-mods-settings.png)
+![](images/mac-mods-settings.png)
 
 Note that this only has to be done the first time you plug the macro pad into your Mac.
 
