@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Blue Team Pad
@@ -9,13 +10,13 @@ layout: home
 
 ## Getting Started
 
-If you would like to build your own unit from scratch, start with the [ordering guide]().
+If you would like to build your own unit from scratch, start with the [ordering guide](https://fearherbs1.github.io/blue-team-pad-docs/ordering-guide/).
 
-If you received a pre-built unit from the group buy, start here at the [usage guide]().
+If you received a pre-built unit from the group buy, start here at the [usage guide](https://fearherbs1.github.io/blue-team-pad-docs/usage-guide/).
 
-If you received a DIY unit from the group buy, start here at the [build guide]().
+If you received a DIY unit from the group buy, start here at the [build guide](https://fearherbs1.github.io/blue-team-pad-docs/build-guide/).
 
-If you plan to use this device on a Mac, visit [this page]() for some important info.
+If you plan to use this device on a Mac, visit [this page](https://fearherbs1.github.io/blue-team-pad-docs/mac-info/) for some important info.
 
 
 ## Features

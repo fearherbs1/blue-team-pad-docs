@@ -1,7 +1,33 @@
 ---
 layout: page
 title: Mac Info
-permalink: /Mac-Info/
+permalink: /mac-info/
 nav_order: 5
 ---
 # Mac Info
+
+## Modifer Keys
+
+As you may already know, Macs use `command (⌘)` as their windows & linux `control` equivalent even though they still have a `control (⌃)` key. So, when a "windows" keyboard is used on a mac the keys act as follows by default:
+
+* control --> control (^)
+* windows Key (GUI) --> command (⌘)
+* alt --> option (⌥)
+
+While this does not pose any issue on its own, for maximum compatibility of macros across operating systems, it is recommended to rebind the modifier keys within mac `System Settings` app to the following:
+
+![apple settings page](images/mac-mods-settings.png)
+
+Note that this only has to be done the first time you plug the macro pad into your Mac.
+
+This menu can be reached by searching for `customize modifier keys` within the mac settings app and selecting the `blue_team_pad` from the dropdown menu.
+
+Now if we have a macro simple macro to copy for example, we can save `LCTRL+C` as a macro and it will work on both operating systems.
+
+If you were to program mac-specific macros after doing this change you would use:
+
+* control as command (⌘)
+* alt as option (⌥)
+* Windows Key (GUI) as control (^)
+
+
