@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Mac Info
-permalink: /mac-info/
 nav_order: 5
+parent: Usage Guide
+permalink: /usage-guide/mac-info/
 ---
 # Mac Info
 

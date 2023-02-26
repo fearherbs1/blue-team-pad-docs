@@ -16,7 +16,7 @@ If you received a pre-built unit from the group buy, start here at the [usage gu
 
 If you received a DIY unit from the group buy, start here at the [build guide](https://fearherbs1.github.io/blue-team-pad-docs/build-guide/).
 
-If you plan to use this device on a Mac, visit [this page](https://fearherbs1.github.io/blue-team-pad-docs/mac-info/) for some important info.
+If you plan to use this device on a Mac, visit [this page](https://fearherbs1.github.io/blue-team-pad-docs/usage-guide/mac-info/) for some important info.
 
 
 ## Features
