@@ -6,5 +6,19 @@ enable_copy_code_button: true
 
 url: https://fearherbs1.github.io/blue-team-pad-docs
 
+favicon_ico: "/images/favicon.ico"
+
 aux_links:
   Blue Team Pad Repo: https://github.com/fearherbs1/blue-team-pad
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: grey-lt
+  important:
+    title: Important
+    color: purple
+
