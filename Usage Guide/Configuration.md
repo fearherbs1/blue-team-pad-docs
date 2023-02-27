@@ -25,18 +25,18 @@ In order to use this method, you must be using a browser that supports `WEB HID`
 
 Once on the site click the `Start Vial` button as shown below:
 
-![Start Vial](/images/start-vial.png)
+![Start Vial](https://fearherbs1.github.io/blue-team-pad-docs/images/start-vial.png)
 
 This will prompt you to authorize a device to be used.  
 
 Click the entry for `blue_team_pad` and then click connect:
 
-![Connect to Vial Web](/images/connect-to-vial-web.png)
+![Connect to Vial Web](images/connect-to-vial-web.png)
 
 
 After a few seconds your device will then connect and be ready for configuration!
 
-![Ready To Configure](/images/vial-web-connected.png)
+![Ready To Configure](https://fearherbs1.github.io/blue-team-pad-docs/images/vial-web-connected.png)
 
 ## VIAL App
 
