@@ -12,7 +12,7 @@ permalink: /usage-guide/example-macros/
 The following macros are included here as an example of what is possible with this device:
 
 <span class="fs-5">
-[Productivity](/usage-guide/example-macros/productivity/){: .btn .btn-blue }   [Windows Triage](/usage-guide/example-macros/windows-triage/){: .btn .btn-blue }   [Mac Triage](/usage-guide/example-macros/mac-triage/){: .btn .btn-blue }   [Linux Triage](/usage-guide/example-macros/linux-triage/){: .btn .btn-blue}
+[Productivity](/blue-team-pad-docs/usage-guide/example-macros/productivity/){: .btn .btn-blue }   [Windows Triage](/blue-team-pad-docs/usage-guide/example-macros/windows-triage/){: .btn .btn-blue }   [Mac Triage](/blue-team-pad-docs/usage-guide/example-macros/mac-triage/){: .btn .btn-blue }   [Linux Triage](/blue-team-pad-docs/usage-guide/example-macros/linux-triage/){: .btn .btn-blue}
 </span>
 
 If you would like to load these separately to another vial device, you can use the "Open Text Editor" feature within vial to load these macros on it.
@@ -21,5 +21,5 @@ If you would like to load these separately to another vial device, you can use t
 These macros were developed with a windows machine in mind. If you would like to use these macros on a Mac, visit the following page for more information.
 
 <span class="fs-5"> 
-[Mac Info](/usage-guide/mac-info/){: .btn .btn-blue }
+[Mac Info](/blue-team-pad-docs/usage-guide/mac-info/){: .btn .btn-blue }
 </span>
