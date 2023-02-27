@@ -40,14 +40,13 @@ After a few seconds your device will then connect and be ready for configuration
 
 ## VIAL App
 
-First Download and install the VIAL App for your operating system:
+First download and install the VIAL app for your operating system:
 
 [Download VIAL](https://get.vial.today/download/){: .btn .btn-blue }
 
+{: .warning }
+Linux Users May need to create a custom `udev` rule in order for the device to show up within the VIAL App. You can read how to do this within the VIAL documentation [HERE](https://get.vial.today/manual/linux-udev.html)
+
 Then launch the app, your device should show up within the menu at the top and be ready to configure!
 
-
-{: .warning }
-Linux Users May need to create a custom udev rule in order for the device to show up within the VIAL App. You can read how to do this within the VIAL documentation [HERE](https://get.vial.today/manual/linux-udev.html)
-
-
+![Vial App Ready](https://fearherbs1.github.io/blue-team-pad-docs/images/vial-app-ready.png)
