@@ -31,7 +31,7 @@ This will prompt you to authorize a device to be used.
 
 Click the entry for `blue_team_pad` and then click connect:
 
-![Connect to Vial Web](/../../images/connect-to-vial-web.png)
+![Connect to Vial Web](https://fearherbs1.github.io/blue-team-pad-docs/images/connect-to-vial-web.png)
 
 
 After a few seconds your device will then connect and be ready for configuration!
