@@ -4,7 +4,7 @@ title: Linux Triage
 nav_order: 4
 parent: Example Macros
 grand_parent: Usage Guide
-permalink: /usage-guide/example-macros/linux-triage
+permalink: /usage-guide/example-macros/linux-triage/
 ---
 
 # Linux Triage:

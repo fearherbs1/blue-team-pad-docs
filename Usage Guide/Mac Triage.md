@@ -4,7 +4,7 @@ title: Mac Triage
 nav_order: 3
 parent: Example Macros
 grand_parent: Usage Guide
-permalink: /usage-guide/example-macros/mac-triage
+permalink: /usage-guide/example-macros/mac-triage/
 ---
 
 # Mac Triage:

@@ -4,7 +4,7 @@ title: Productivity
 nav_order: 1
 parent: Example Macros
 grand_parent: Usage Guide
-permalink: /usage-guide/example-macros/productivity
+permalink: /usage-guide/example-macros/productivity/
 ---
 
 # Productivity

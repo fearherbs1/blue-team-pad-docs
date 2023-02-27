@@ -4,7 +4,7 @@ title: Windows Triage
 nav_order: 2
 parent: Example Macros
 grand_parent: Usage Guide
-permalink: /usage-guide/example-macros/windows-triage
+permalink: /usage-guide/example-macros/windows-triage/
 ---
 
 # Windows Triage:
