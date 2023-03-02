@@ -23,7 +23,7 @@ Note that this only has to be done the first time you plug the macro pad into yo
 
 This menu can be reached by searching for `customize modifier keys` within the mac settings app and selecting the `blue_team_pad` from the dropdown menu.
 
-Now if we have a macro simple macro to copy for example, we can save `LCTRL+C` as a macro and it will work on both operating systems.
+Now if we create a simple macro to issue the copy command, we can save it as `LCTRL+C` and it will work on both operating systems.
 
 If you were to program mac-specific macros after doing this change you would use:
 
