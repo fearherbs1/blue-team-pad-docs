@@ -63,6 +63,21 @@ Now, since the pad is not built, we will need to use our metal tweezers / paperc
 
 ![Unlock PCB](/blue-team-pad-docs/images/unlock-pcb.jpeg){: width="800" }
 
+![Unlock Bar](/blue-team-pad-docs/images/unlock-vial.png){: width="400" }
+
+Once unlocked, use your pair of tweezers / paperclip to short each switch pad on the PCB.
+
+![Test PCB](/blue-team-pad-docs/images/test-pcb.jpeg){: width="400" }
+
+Then short the 2 pads corresponding to the switch for each encoder.  
+These will be the 2 pins closest to the `SW2` & `SW3` markings on the PCB:
+
+![Test Encoder Switch](/blue-team-pad-docs/images/test-encoder-switch.png){: width="400" }
+
+If your PCB is fully functional, every key should be blue on VIAL as shown below:
+
+![PCB Good](/blue-team-pad-docs/images/pcb-good-vial.png){: width="500" }
+
 
 
 ## Step 2: Soldering Hot Swap Sockets
