@@ -15,7 +15,7 @@ Building the Blue Team Pad from scratch requires soldering!
 
 You should have the following parts before you start the build:
 
-![Parts Image 1](/images/part-overview-1.png){: width="800" }
+![Parts Image 1](/blue-team-pad-docs/images/part-overview-1.png){: width="800" }
 
 ![Parts Image 2](/images/part-overview-2.png){: width="800" }
 
