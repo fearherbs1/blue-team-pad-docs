@@ -59,7 +59,7 @@ If your knob is not soldered onto the board yet, shorting the two `BOOT` pins on
 
 Once plugged in, the device will show as a storage device named `RPI-RP2`.
 
-![](/images/flashing-storage-device.png)
+![Storage Device](/blue-team-pad-docs/images/flashing-storage-device.png){: width="700" }
 
 To complete the flashing, copy the `fearherbs1_blue_team_pad_vial.uf2` file to the root of the `RPI-RP2` device.
 

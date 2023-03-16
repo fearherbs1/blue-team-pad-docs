@@ -6,7 +6,7 @@ nav_order: 3
 ---
 # Build Guide
 
-Welcome to the build guide. This guide will go through building a Blue Team Pad from scratch. If yours is already built skip straight to the [usage guide](https://fearherbs1.github.io/blue-team-pad-docs/usage-guide/). If you need to source these parts visit the [ordering guide](https://fearherbs1.github.io/blue-team-pad-docs/ordering-guide/)
+Welcome to the build guide. This guide will go through building a Blue Team Pad from scratch. If yours is already built skip straight to the [usage guide](/blue-team-pad-docs/usage-guide/). If you need to source these parts visit the [ordering guide](/blue-team-pad-docs/ordering-guide/)
 
 {: .warning }
 Building the Blue Team Pad from scratch requires soldering!
@@ -17,7 +17,7 @@ You should have the following parts before you start the build:
 
 ![Parts Image 1](/blue-team-pad-docs/images/part-overview-1.png){: width="800" }
 
-![Parts Image 2](/images/part-overview-2.png){: width="800" }
+![Parts Image 2](/blue-team-pad-docs/images/part-overview-2.png){: width="800" }
 
 ## Parts List:
 
@@ -55,13 +55,13 @@ You will need the following tools to complete the build:
 Before we do anything, we want to make sure our PCB is working as expected. Launch VIAL on your PC and connect the PCB.
 
 {: .note }
-If the Blue Team Pad is not recognized within VIAL, or shows up as a USB storage device named `RPI-RP2` you may need to flash the firmware on the device. To do so visit the [Flashing Guide](/usage-guide/download-&-flash-firmware/)
+If the Blue Team Pad is not recognized within VIAL, or shows up as a USB storage device named `RPI-RP2` you may need to flash the firmware on the device. To do so visit the [Flashing Guide](/blue-team-pad-docs/usage-guide/download-&-flash-firmware/)
 
 Once connected Navigate to the `Matrix Tester` Tab within VIAL and click the `Unlock Keyboard` button in the bottom right.
 
 Now, since the pad is not built, we will need to use our metal tweezers / paperclips to short the two unlock connections. This process can be done by shorting both the `SW23` and `SW19` pads at the same time until the bar fills on VIAL:
 
-![Unlock PCB](/images/unlock-pcb.jpeg){: width="800" }
+![Unlock PCB](/blue-team-pad-docs/images/unlock-pcb.jpeg){: width="800" }
 
 
 
