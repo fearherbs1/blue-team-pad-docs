@@ -121,5 +121,5 @@ While the 2 larger "pins" do not carry any electrical current, they serve as a w
 
 Once done your encoders' solder joints should look like the following:
 
-![Encoder Pads Soldered](/blue-team-pad-docs/encoder-pads-soldered.jpg){: width="600" }
+![Encoder Pads Soldered](/blue-team-pad-docs/images/encoder-pads-soldered.jpg){: width="600" }
 
