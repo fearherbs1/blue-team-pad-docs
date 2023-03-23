@@ -96,7 +96,7 @@ One at a time place & solder each hot swap sockets within the designated areas o
 {: .warning }
 Ensure that your sockets are facing the correct direction! The pads will still line up if the part is flipped upside down! Refer to the photo below as a reference.
 
-![Hot Swap Socket Direction](/blue-team-pad-docs/hs-socket-direction.png){: width="800" }
+![Hot Swap Socket Direction](/blue-team-pad-docs/images/hs-socket-direction.png){: width="800" }
 
 When soldering the sockets, ensure that each one is flush with the PCB as seen below:
 
