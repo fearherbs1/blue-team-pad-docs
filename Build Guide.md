@@ -50,9 +50,9 @@ You will need the following tools to complete the build:
 5. 1 USB Type C Cable
 6. Computer that can run VIAL
 
-## Step 1: Testing the PCB
+## Step 1: Testing the PCB & OLED
 
-Before we do anything, we want to make sure our PCB is working as expected. Launch VIAL on your PC and connect the PCB.
+Before we do anything, we want to make sure our PCB & OLED is working as expected. Launch VIAL on your PC and connect the PCB.
 
 {: .note }
 If the Blue Team Pad is not recognized within VIAL, or shows up as a USB storage device named `RPI-RP2` you may need to flash the firmware on the device. To do so visit the [Flashing Guide](/blue-team-pad-docs/usage-guide/download-&-flash-firmware/)
@@ -79,13 +79,47 @@ If your PCB is fully functional, every key should be blue on VIAL as shown below
 ![PCB Good](/blue-team-pad-docs/images/pcb-good-vial.png){: width="500" }
 
 
+To test the OLED, first unplug the PCB from your PC. Then place the OLED within it's footprint on the top of the PCB as shown below so the pins make contact with the pads. Then plug the PCB back in. The OLED should light up and display Layer information as well as the name of the pad:
+
+![OLED Test](/blue-team-pad-docs/images/oled-test.jpg){: width="600" }
 
 ## Step 2: Soldering Hot Swap Sockets
 
-Now that we have all of our tools & parts we can begin the build.
+Now that we have all of our tools, parts & the PCB is tested we can begin the build.
 
 First we will solder the hot swap sockets to the PCB.
 
-Set your solder iron and gather the PCB & 20x hot swap sockets.
+Set up your solder iron and gather the PCB & 20x hot swap sockets.
 
 One at a time place & solder each hot swap sockets within the designated areas on the pcb. These areas are marked `SW4` through `SW23`
+
+{: .warning }
+Ensure that your sockets are facing the correct direction! The pads will still line up if the part is flipped upside down! Refer to the photo below as a reference.
+
+![Hot Swap Socket Direction](/blue-team-pad-docs/hs-socket-direction.png){: width="800" }
+
+When soldering the sockets, ensure that each one is flush with the PCB as seen below:
+
+![Flush Socket](/blue-team-pad-docs/images/flush-socket.jpg){: width="700" }
+
+When you are finished soldering the sockets, your PCB should look like the following:
+
+![Sockets Soldered](/blue-team-pad-docs/images/sockets-soldered.png){: width="600" }
+
+## Step 3: Soldering Encoders
+
+Next we will solder the two encoders to the PCB.
+
+Line up each encoder and fit the pins within the `ENC 0` and `ENC 1` footprints on the PCB.
+
+{: .note }
+These will be soldered on the OPPOSITE side of the PCB compared to the hot swap sockets. Also ensure the encoders are flush before soldering them!
+
+![Encoder Position](/blue-team-pad-docs/images/encoder-pos.jpg){: width="600" }
+
+While the 2 larger "pins" do not carry any electrical current, they serve as a way to stabilize the encoder on the PCB, so be sure to solder them.
+
+Once done your encoders' solder joints should look like the following:
+
+![Encoder Pads Soldered](/blue-team-pad-docs/encoder-pads-soldered.jpg){: width="600" }
+
