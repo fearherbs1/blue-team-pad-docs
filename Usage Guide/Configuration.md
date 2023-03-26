@@ -140,18 +140,17 @@ The available keycodes for switching layers can be seen in the layer tab of the 
 There are extremely powerful and allow for the creation of very complex keymaps. As for the two most basic:
 
 * `MO(Layer Number)` - Momentary Layer Switch. This will switch to the specified layer while the key is pressed and then switch back to the previous layer when the key is released.
+* `TO(Layer Number)` - Switch to Layer. This will switch to the specified layer and stay there until another layer switch key is pressed.
 
 {: .note }
 When using momentary layer activation such with `MO(Layer Number)` `KC_TRNS` must be set to that key on the layer you are momentary switching to. More information on this can be found in the QMK documentation [HERE](https://docs.qmk.fm/#/feature_layers?id=switching-and-toggling-layers).
 
-* `TO(Layer Number)` - Switch to Layer. This will switch to the specified layer and stay there until another layer switch key is pressed.
-
 More information on layers including explanations of advanced layer switching can be found in the QMK documentation [HERE](https://docs.qmk.fm/#/feature_layers?id=switching-and-toggling-layerss).
-
 
 For example, Lets say I want the bottom left and right keys to cycle me through all of my layers. To do so I would set the bottom left most key on each layer to `TO(Next Lowest Layer)` and the bottom right most key on each layer to `TO(Next Highest Layer)`. If we want to be able to cycle through every layer with one key, we would need to set the bottom right key on the highest layer to `TO(Lowest Layer)`. and the bottom left key on the lowest layer to `TO(Highest Layer)`.
 
 For Example:
+
 ```text
 Layer 0:
 Bottom Left Key: TO(5)
