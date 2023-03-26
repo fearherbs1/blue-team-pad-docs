@@ -51,6 +51,9 @@ get-filehash -Algorithm SHA256 .\fearherbs1_blue_team_pad_vial.uf2
 
 Now that we have our firmware, we need to enter the boot-loader.
 
+{: .warning }
+Entering the boot-loader will erase any existing firmware on the device as well as clear any keymap changes you may have made. If you have any custom keymaps or settings, make sure to back them up before proceeding. You can can save your keymap by following the instructions [Here](/blue-team-pad-docs//usage-guide/configuration/#saving-a-keymap).
+
 To do this, hold down the left knob and plug the device into your computer.
 
 If no firmware is installed on the device, just plugging it in without holding any buttons will have the same effect.
