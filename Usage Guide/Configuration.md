@@ -44,7 +44,7 @@ Click the entry for `blue_team_pad` and then click connect:
 
 After a few seconds your device will then connect and be ready for configuration!
 
-![Ready To Configure](blue-team-pad-docs/images/vial-web-connected.png)
+![Ready To Configure](/blue-team-pad-docs/images/vial-web-connected.png){: width="800"}
 
 ## VIAL App
 
@@ -57,7 +57,7 @@ Linux Users May need to create a custom `udev` rule in order for the device to s
 
 Then launch the app, your device should show up within the menu at the top and be ready to configure!
 
-![Vial App Ready](https://fearherbs1.github.io/blue-team-pad-docs/images/vial-app-ready.png)
+![Vial App Ready](https://fearherbs1.github.io/blue-team-pad-docs/images/vial-app-ready.png){: width="800"}
 
 ## Basic Key Mapping
 
@@ -67,7 +67,7 @@ There is no need to "save" your keymap, it is automatically saved when you chang
 
 In the example below I have remapped the uppermost left key to the `A` key:
 
-![Keymap Example](/blue-team-pad-docs/images/keymap-example.png)
+![Keymap Example](/blue-team-pad-docs/images/keymap-example.png){: width="800"}
 
 
 ### Encoder Key Mapping
@@ -180,14 +180,10 @@ Bottom Right Key: TO(0)
 
 This will then result in the following layer switching behavior:
 
-![Layer Switching](/blue-team-pad-docs/images/layer-gif-small.gif)
+<iframe width="800" height="400" src="https://www.youtube.com/embed/XRWz86NmuaI" frameborder="0" allowfullscreen></iframe>
 
 An Example `.vil` file can be downloaded [HERE](https://github.com/fearherbs1/blue-team-pad/tree/main/Example%20Layouts)
 
-This same principle can also be used to bind layer switching to the twisting of one of the encoders.
-
+This same principle can also be used to bind layer switching to the twisting of one of the encoders, allowing the ability to cycle through all layers with the twist of an encoder.
 
 ## Macros
-
-
-
