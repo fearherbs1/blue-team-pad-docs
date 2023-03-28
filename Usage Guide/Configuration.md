@@ -10,17 +10,19 @@ permalink: /usage-guide/configuration/
 
 Since the Blue Team Pad is a fully programmable macro pad built on VIAL, you can configure it to your liking. This guide will go through the basics of configuring the device using VIAL.
 
-Besides this guide, you can also view the full VIAL documentation [HERE](https://get.vial.today/manual/).
+Besides this guide, you can also check out the [VIAL Documentation](https://get.vial.today/manual/) for more information.
 
 Since vial is built on top of QMK it also supports many QMK features. The full QMK documentation is available for reference [HERE](https://docs.qmk.fm/).
 
 ## Setting up Vial
 
-In order to configure the device we have two options, VIAL Web & the VIAL App. The one you use is completely up to you as they both have the same functionality.
+In order to configure the device we have two options, VIAL Web & the VIAL App.
 
 VIAL web is very useful if you are in a situation where installing programs on your computer is not possible, such as corporate devices as everything is done through a web browser.  
 
-Though, if you are allowed to download programs I recommend the downloadable app instead.
+However, the VIAL app does have a few more features such as the ability to export your keymap to a file.
+
+Also as of 3/28/23 There is also a bug where copy paste does not work within the macro editor in VIAL web. This is not an issue in the VIAL app.
 
 ## VIAL Web
 
@@ -40,7 +42,6 @@ This will prompt you to authorize a device to be used.
 Click the entry for `blue_team_pad` and then click connect:
 
 ![Connect to Vial Web](/blue-team-pad-docs/images/connect-to-vial-web.png)
-
 
 After a few seconds your device will then connect and be ready for configuration!
 
@@ -82,7 +83,6 @@ In the example below I have mapped the counter clockwise encoder rotation to the
 
 This will allow me to control the volume of my computer by rotating the encoder and mute it by pressing the encoder.
 
-
 ### The "KC_Trans" Key
 
 You may notice that some keys look like a little triangle pointing down. 
@@ -93,7 +93,7 @@ This is the `KC_Trans` key and it is used to "transparently" pass the keypress t
 
 For example, if I set the bottom left key on layer 0 to `KC_A` and the bottom left key on layer 1 to `KC_Trans` and then switch to layer 1, pressing the bottom left key will result in the `KC_A` key being pressed.
 
-### the "Any" Key
+### The "Any" Key
 
 The `Any` key is a special key that can be used to remap a key to any other QMK keycode, even if it does not exist in the VIAL UI. This is useful if you want to use a key that is not directly supported in the VIAL UI.
 
@@ -116,7 +116,6 @@ This will save the layout to a  `.vil` file on your computer that you can then l
 To Load a layout, click file and then `Load Saved Layout` and select the layout file you want to load.
 
 ![Load Layout](/blue-team-pad-docs/images/load-layout.png)
-
 
 ## Layers
 
@@ -186,3 +185,66 @@ An Example `.vil` file can be downloaded [HERE](https://github.com/fearherbs1/bl
 This same principle can also be used to bind layer switching to the twisting of one of the encoders, allowing the ability to cycle through all layers with the twist of an encoder.
 
 ## Macros
+
+Macros are the bread and butter of the Blue Team Pad. In essence they allow you to bind multiple sequenced keypresses to a single key.
+
+{: .note }
+Unlike most other QMK/VIAL/VIA powered keyboards, the Blue Team Pad has enough memory onboard to use the maximum amount of 64kb of memory for macros. This is the current maximum amount of memory that is supported by the QMK EEPROM storage subsystem.
+You can learn more about the EEPROM storage subsystem [HERE](https://docs.qmk.fm/#/eeprom_driver?id=wear_leveling-flash_spi-driver-configuration)
+
+To create a macro, click the `Macro` tab in the VIAL App and select a macro slot to edit.
+
+From here, you can either add actions one by one using the `Add action` button, import & export macros from `json` format using the `Open Text Editor` button, or record a macro using the `Record Macro` button.
+
+You can also see your storage usage at the bottom left of the macro tab.
+
+### Creating A Basic Macro
+
+The available options when creating macros are:
+
+* `Delay (ms)` - Wait for a specified amount of time in milliseconds. This is useful for macros that need to wait for a window to open or for a key to be pressed before the next action can be performed.
+* `text` - Type out a specified string of text.
+* `tap` - Tap a specified key.
+* `down` - Press and hold a specified key(s).
+* `up` - Release a specified key(s).
+
+You can also reorder the actions in a macro by using the up and down arrows next to each action.
+
+In the image below, I have created a within slot 20 macro that will:
+
+* Type out the word `Hello World`
+* Wait 10ms
+* Press and hold the `Left Ctrl` key
+* Tap the `A` key to select all
+* Tap the `C` key to copy
+* And then release the `Left Ctrl` key
+
+![Macro Tab](/blue-team-pad-docs/images/macro-tab.png)
+
+We can then click the `Save` button to save the macro.
+
+If this is the first time saving a macro since plugging in the device, you will be prompted to unlock the macro pad. This is to prevent malicious programs from adding macros to the device without your knowledge.
+
+To unlock the macro pad, hold the bottom left and right keys until the progress bar on screen fills up:
+
+![Unlocking](/blue-team-pad-docs/images/unlock-vial.png)
+
+We can then assign the macro to a key for use in the `Keymap` tab.
+
+![Assigning Macro](/blue-team-pad-docs/images/assigning-macro.png)
+
+### Importing & Exporting Macros
+
+To import or export macros, click the `Open Text Editor` button in the macro tab.
+
+This will open a text editor where you can export the current macro or load a new one in `json` format.
+
+![Macro Text Editor](/blue-team-pad-docs/images/macro-text-editor.png)
+
+For example here is the macro I created above in `json` format:
+
+```json
+[["text", "hello world"], ["delay", 10], ["down", "KC_LCTRL"], ["tap", "KC_A"], ["tap", "KC_C"], ["up", "KC_LCTRL"]]
+```
+
+The sample macros that I have created that can be found [HERE](/blue-team-pad-docs/usage-guide/example-macros/)
