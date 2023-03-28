@@ -219,7 +219,7 @@ In the image below, I have created a within slot 20 macro that will:
 * Tap the `C` key to copy
 * And then release the `Left Ctrl` key
 
-![Macro Tab](/blue-team-pad-docs/images/macro-tab.png)
+![Macro Tab](/blue-team-pad-docs/images/macro-tab.png){: width="800"}
 
 We can then click the `Save` button to save the macro.
 
@@ -227,11 +227,11 @@ If this is the first time saving a macro since plugging in the device, you will 
 
 To unlock the macro pad, hold the bottom left and right keys until the progress bar on screen fills up:
 
-![Unlocking](/blue-team-pad-docs/images/unlock-vial.png)
+![Unlocking](/blue-team-pad-docs/images/unlock-vial.png){: width="500"}
 
 We can then assign the macro to a key for use in the `Keymap` tab.
 
-![Assigning Macro](/blue-team-pad-docs/images/assigning-macro.png)
+![Assigning Macro](/blue-team-pad-docs/images/assigning-macro.png){: width="800"}
 
 ### Importing & Exporting Macros
 
