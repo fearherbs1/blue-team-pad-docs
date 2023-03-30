@@ -8,6 +8,8 @@ nav_order: 3
 
 Welcome to the build guide. This guide will go through building a Blue Team Pad from scratch. If yours is already built skip straight to the [usage guide](/blue-team-pad-docs/usage-guide/). If you need to source these parts visit the [ordering guide](/blue-team-pad-docs/ordering-guide/)
 
+If you need to make any image bigger, right click on it and select `Open Image in New Tab`. This will open the image in a new tab and allow you to zoom in on it.
+
 {: .warning }
 Building the Blue Team Pad from scratch requires soldering!
 
@@ -123,3 +125,138 @@ Once done your encoders' solder joints should look like the following:
 
 ![Encoder Pads Soldered](/blue-team-pad-docs/images/encoder-pads-soldered.jpg){: width="600" }
 
+## Step 4: Assemble The Case
+
+First, gather the following case parts:
+
+* 1x Case Mid Piece (The one without the USB cutout!)
+* 1x Plate
+* 20x MX Switches
+
+First line up the mid piece with the PCB as shown below:
+
+![Case Mid Piece](/blue-team-pad-docs/images/case-mid-piece.jpg){: width="600" }
+
+{: .note }
+All of the case parts are NOT a perfect square, so you may need to rotate them to in order for the holes to line up.
+
+Next grab the place and inset a few switches into the plate. Be SURE that the switches are inserted into the plate in the correct orientation.
+
+The little rectangle on top of the plate must be on the left side, and the switches must be south facing. By south facing we want the LED hole to be facing south and the branding to be facing north. See the photo below for reference:
+
+![Plate Orientation](/blue-team-pad-docs/images/plate-orientation.jpg){: width="600" }
+
+{: .warning }
+You must ensure that your switch pins are not bent! If they are bent, the switches will not fit into the hot swap sockets properly and this will prevent the switch in question from working.
+
+Refer to the photo below for reference:
+
+![Pin Direction](/blue-team-pad-docs/images/pin-direction.jpg){: width="700" }
+
+Next, place the plate on top of the mid piece & pcb while simultaneously inserting the switches into the hot swap sockets. Be sure to line up the holes on the plate with the holes on the mid piece.
+
+Be sure that once inserting the switches they are flush with the plate as shown below:
+
+![Switches Flush](/blue-team-pad-docs/images/switches-flush.jpg){: width="600" }
+
+Then Insert the rest of the switches, once again be sure to check every switch for bent pins!
+
+![Switches Inserted](/blue-team-pad-docs/images/all-switches-in.jpg){: width="600" }
+
+Once all of the switches are inserted, double check one last time to ensure that all of the switches are inserted correctly.
+
+![Total Switches Flush](/blue-team-pad-docs/images/total-switches-flush.jpg){: width="600" }
+
+## Step 5: Soldering the OLED
+
+Before we solder our OLED, lets install the OLED cover. This will help protect the OLED from damage after installation.
+
+First remove the protective film from the OLED. in this case it looks like a screen protector with a green pull tab.
+
+![OLED Screen Protector](/blue-team-pad-docs/images/oled-screen-protector.jpg){: width="600" }
+
+{: .warning }
+Be sure to install the OLED cover with the correct orientation! If installed incorrectly, the OLED CAN be damaged! (2 OLEDs were broken in the process of prototyping this part)
+
+If you look at the inside of the OLED cover closely, you will notice that the inside of one side of the cover has a small notch. This notch is meant for extra space for the ribbon cable that connects the OLED to it's PCB.
+
+![OLED Cover Notch](/blue-team-pad-docs/images/oled-cover-notch.jpg){: width="600" }
+
+Then place the OLED into the OLED cover by first inserting the side without pins into the cover so the ribbon cable slots into the aforementioned notch:
+
+![OLED Cover Insert](/blue-team-pad-docs/images/oled-cover-insert.jpg){: width="600" }
+
+Then press the side with the pins into the cover. It should fit snugly.
+
+![OLED Cover Insert 2](/blue-team-pad-docs/images/oled-cover-insert-2.jpg){: width="600" }
+
+
+Then insert the OLED through the plate so the pins fit into the PCB as shown below:
+
+![OLED Insert](/blue-team-pad-docs/images/oled-insert.jpg){: width="600" }
+
+Then solder the 4 OLED pins to the PCB as shown below:
+
+![OLED Solder](/blue-team-pad-docs/images/oled-solder.jpg){: width="600" }
+
+## Step 6 Testing the OLED & Switches
+
+Now that all of the electronics are assembled we can check to make sure everything is working properly.
+
+First, plug in the macro pad into your computer and connect it to VIAL.
+
+The OLED should light up and display the current layer and `Blue Team Pad`.
+
+![OLED Working](/blue-team-pad-docs/images/oled-working.jpg){: width="600" }
+
+{: .note }
+The OLED will go into sleep mode after ~60 seconds of inactivity. To wake it up, press any key on the pad. This is to prevent OLED burn-in.
+
+Then just how we first tested the pcb, navigate to the matrix tab, unlock the Pad, and press each switch to ensure that they are working properly.
+
+Every switch should light up when you push it. If a switch does not, remove it and check the pins to ensure that they are not bent.
+
+![Switches Working](/blue-team-pad-docs/images/pcb-good-vial.jpg){: width="600" }
+
+## Step 7: Finish Case Assembly
+
+Now that we have confirmed that the electronics are working properly, we can finish assembling the case.
+
+First, grab the 4x m2x16mm screws and insert them through each hole in the corners of the plate as shown below:
+
+![Screws Inserted](/blue-team-pad-docs/images/screws-inserted.jpg){: width="600" }
+
+{: .note }
+You may have to use your screwdriver to "screw" your screws through the 3d printed parts during assembly, this is by design to ensure a snug case assembly.
+
+Then grab the mid piece with the USB cutout and place it on the PCB, screwing it into the 4 screws.
+
+You will notice that there is a small notch on this part, Be sure to line that notch up with `R6` on the PCB as shown below:
+
+![Mid Piece Notch](/blue-team-pad-docs/images/mid-piece-notch.jpg){: width="600" }
+
+The mid piece should look like the following once installed:
+
+![Mid Piece Screwed](/blue-team-pad-docs/images/mid-piece-screwed.jpg){: width="600" }
+
+First, insert the 4 M2 nuts into each nut hole on the bottom piece as shown below:
+
+![Bottom Piece Nuts](/blue-team-pad-docs/images/bottom-piece-nuts.jpg){: width="600" }
+
+Next grab the bottom piece and screw it on to the USB mid piece as shown below. The thicker part of the bottom piece should be facing the USB cutout.
+
+![Bottom Piece Installed](/blue-team-pad-docs/images/bottom-piece-installed.jpg){: width="600" }
+
+Then, install the 4 rubber bumpons in the 4 holes on the bottom piece as shown below:
+
+![Bumpons Installed](/blue-team-pad-docs/images/bumpons-installed.jpg){: width="600" }
+
+Next, grab the 2 knobs and press-fit them onto the encoders. These are a tight fit, so you may need to use a bit of force.
+
+![Knobs Installed](/blue-team-pad-docs/images/knobs-installed.jpg){: width="600" }
+
+Finally, install your key caps of choice by press-fitting them onto the top of the switches!
+
+![Fully Assembled](/blue-team-pad-docs/images/fully-assembled.jpg){: width="600" }
+
+That's it! You have now successfully assembled your Blue Team Pad!
