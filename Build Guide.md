@@ -216,7 +216,7 @@ Then just how we first tested the pcb, navigate to the matrix tab, unlock the Pa
 
 Every switch should light up when you push it. If a switch does not, remove it and check the pins to ensure that they are not bent.
 
-![Switches Working](/blue-team-pad-docs/images/pcb-good-vial.jpg){: width="600" }
+![Switches Working](/blue-team-pad-docs/images/pcb-good-vial.png){: width="600" }
 
 ## Step 7: Finish Case Assembly
 
