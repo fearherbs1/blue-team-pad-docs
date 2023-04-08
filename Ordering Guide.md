@@ -88,11 +88,11 @@ Then download the `POS-BlueTeamPad.csv` file [Here](https://github.com/fearherbs
 
 After clicking next, *ensure that all of the parts are in stock*. It should look something like the page below.
 
-![BOM All Parts](blue-team-pad-docs/images/BOM-ALL-Parts.png)
+![BOM All Parts](/blue-team-pad-docs/images/BOM-ALL-Parts.png)
 
 Then on the next page you can see a 3d rendering of all of the parts on the pcb.
 
-![PCB 3D Rendering](blue-team-pad-docs/images/pcb-3d-rendering.png)
+![PCB 3D Rendering](/blue-team-pad-docs/images/pcb-3d-rendering.png)
 
 Click next, you should be all set, but if there are any issues with parts placement a JLCPBC engineer will correct the placement and send you an email.
 
