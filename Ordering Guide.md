@@ -70,7 +70,6 @@ Once uploaded select the following options:
 * Gold Fingers: No
 * Castellated Holes: No
 
-
 Then add the PCB Assembly Options:
 
 * PCBA Type: Economic
@@ -78,3 +77,40 @@ Then add the PCB Assembly Options:
 * PCBA Quantity: 5
 * Tooling Holes: Added by JLCPCB
 * Confirm Parts Placement: Yes
+
+Then on the next page you will be greeted with the following screen:
+
+![BOM/POS Page](/blue-team-pad-docs/images/bom-pos-jlcpcb.png)
+
+Download the `BOM-BlueTeamPad.csv` file [Here](https://github.com/fearherbs1/blue-team-pad/releases) and upload it using the `Add Bom File` button.
+
+Then download the `POS-BlueTeamPad.csv` file [Here](https://github.com/fearherbs1/blue-team-pad/releases) and upload it using the `Add CPL File` button.
+
+After clicking next, *ensure that all of the parts are in stock*. It should look something like the page below.
+
+![BOM All Parts](blue-team-pad-docs/images/BOM-ALL-Parts.png)
+
+Then on the next page you can see a 3d rendering of all of the parts on the pcb.
+
+![PCB 3D Rendering](blue-team-pad-docs/images/pcb-3d-rendering.png)
+
+Click next, you should be all set, but if there are any issues with parts placement a JLCPBC engineer will correct the placement and send you an email.
+
+After that you can add the order to your cart and checkout.
+
+## 3d Printed Parts
+
+If possible, I highly recommend printing the parts yourself or visiting a local maker space for access to a 3d printer. If you cannot get access to one JLCPCB also has a 3d printing service but from what I have seen it is quite expensive.
+
+If you plan to print the parts yourself, the STL files are available on the [BlueTeamPad Github Releases Page](https://github.com/fearherbs1/blue-team-pad/releases) in a file named `Case.STLs.zip`.
+
+### Print Settings
+
+I used the following settings when printing the parts:
+
+* Layer Height: 0.2mm
+* Infill: 15%
+* Supports: No
+* Material: PLA
+
+

@@ -70,9 +70,3 @@ Once the file transfers, the device will re-connect to the host computer ready t
 
 {: .note }
 If you are attempting to flash the device on a mac, dragging & dropping the file over using Finder may fail. If this happens use the copy (`cp`) command within the terminal instead. Ex: `cp fearherbs1_blue_team_pad_vial.uf2  /Volumes/RPI-RP2`
-
-
-
-
-
-

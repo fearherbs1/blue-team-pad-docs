@@ -7,7 +7,7 @@ permalink: /usage-guide/mac-info/
 ---
 # Mac Info
 
-## Modifer Keys
+## Modifier Keys
 
 As you may already know, Macs use `command (⌘)` as their windows & linux `control` equivalent even though they still have a `control (⌃)` key. So, when a "windows" keyboard is used on a mac the keys act as follows by default:
 
@@ -30,5 +30,3 @@ If you were to program mac-specific macros after doing this change you would use
 * control as command (⌘)
 * alt as option (⌥)
 * Windows Key (GUI) as control (^)
-
-
