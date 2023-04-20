@@ -19,3 +19,9 @@ If you happen to purchase the same relegendable keycaps as listed in the [Parts 
 If you do not have access to PhotoShop, [Photopea](https://www.photopea.com/) is a free great online alternative that can work with PSDs.
 
 After creating your labels, be sure to print on `8.5x11` paper for correct sizing.
+
+## Example
+
+Here is an example of what the labels look like on the keycaps.
+
+![Example Relegendables](/blue-team-pad-docs/images/example_relegendable.jpg)
