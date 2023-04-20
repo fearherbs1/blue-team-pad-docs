@@ -167,7 +167,10 @@ Once all of the switches are inserted, double check one last time to ensure that
 
 ![Total Switches Flush](/blue-team-pad-docs/images/total-switches-flush.jpg){: width="600" }
 
-## Step 5: Soldering the OLED
+## Step 5: Soldering the OLED (no socket)
+
+{: .warning }
+If you chose purchase the OLED sockets, skip to step 5.1
 
 Before we solder our OLED, lets install the OLED cover. This will help protect the OLED from damage after installation.
 
@@ -190,10 +193,39 @@ Then press the side with the pins into the cover. It should fit snugly.
 
 ![OLED Cover Insert 2](/blue-team-pad-docs/images/oled-cover-insert-2.jpg){: width="600" }
 
-
 Then insert the OLED through the plate so the pins fit into the PCB as shown below:
 
 ![OLED Insert](/blue-team-pad-docs/images/oled-insert.jpg){: width="600" }
+
+Then solder the 4 OLED pins to the PCB as shown below:
+
+![OLED Solder](/blue-team-pad-docs/images/oled-solder.jpg){: width="600" }
+
+
+## Step 5.1: Soldering the OLED (socket)
+{: .warning }
+Be sure to install the OLED cover with the correct orientation! If installed incorrectly, the OLED CAN be damaged! (2 OLEDs were broken in the process of prototyping this part)
+
+If you look at the inside of the OLED cover closely, you will notice that the inside of one side of the cover has a small notch. This notch is meant for extra space for the ribbon cable that connects the OLED to it's PCB.
+
+![OLED Cover Notch](/blue-team-pad-docs/images/oled-cover-socket.png){: width="600" }
+
+Then install the socket on the OLED by pressing it into the socket as shown below:
+
+![OLED In Socket](/blue-team-pad-docs/images/oled-in-socket.png){: width="600" }
+
+
+Then place the OLED into the OLED cover by first inserting the side without pins into the cover so the ribbon cable slots into the aforementioned notch:
+
+![Put OLED In Socket](/blue-team-pad-docs/images/put-oled-in-cover-socket.png){: width="600" }
+
+Then press the side with the pins into the cover. It should fit snugly.
+
+![OLED Cover In Socket](/blue-team-pad-docs/images/oled-in-cover-socket.png){: width="600" }
+
+Then insert the OLED with the socket attached through the plate so the pins fit into the PCB as shown below:
+
+![OLED Socket Installed](/blue-team-pad-docs/images/oled-cover-socket-installed.png)
 
 Then solder the 4 OLED pins to the PCB as shown below:
 

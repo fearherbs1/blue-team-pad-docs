@@ -28,9 +28,11 @@ Below is the parts list. Links & prices are current as of April 2023. Note that 
 | Bumpons (8mm Diameter) (2mm Thick)  |                         | 4                    | 100 | 100                  | $6.98                    | [Amazon](https://www.amazon.com/gp/product/B07DN6W6VN/)                                                                           |
 | 16mm M2 Machine Screws              | 91290A047               | 4                    | 100 | 100                  | $13.03                   | [MCMaster](https://www.mcmaster.com/catalog/129/3494/91290A047)                                                                                                                                                             |
 | M2 Nuts                             | 98676A310               | 4                    | 100 | 100                  | $11.38                   | [MCMaster](https://www.mcmaster.com/catalog/129/3585/98676A310)                                                                                                                                                             |
-| Oled Sockets                        | C2718488                | 1                    | 10  | 10                   | $0.43                    | [LCSC](https://www.lcsc.com/product-detail/Female-Headers_BOOMELE-Boom-Precision-Elec-C2718488_C2718488.html)                                                         |
+| Oled Sockets (Optional)                        | C2718488                | 1                    | 10  | 10                   | $0.43                    | [LCSC](https://www.lcsc.com/product-detail/Female-Headers_BOOMELE-Boom-Precision-Elec-C2718488_C2718488.html)                                                         |
 | Encoders                            | C255515                 | 2                    | 1   | 2                    | $3.02                    | [LCSC](https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC11E18244A5_C255515.html)     
 
+{: .note }
+The OLED sockets are optional, but highly recommended. They make it much easier to replace the OLEDs if they break. If you end up purchasing the OLED sockets, you will need to 3d print a larger version of the OLED Cover. The name of that STL is `oled_cover_oled_socket.stl` and is included in the `Case.STLs.ZIP` file. on the [BlueTeamPad Github Releases Page](https://github.com/fearherbs1/blue-team-pad/releases)
 
 ## Ordering The PCB
 
