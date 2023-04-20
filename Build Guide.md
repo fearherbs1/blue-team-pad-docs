@@ -21,8 +21,9 @@ You should have the following parts before you start the build:
 
 ![Parts Image 2](/blue-team-pad-docs/images/part-overview-2.png){: width="800" }
 
-## Parts List:
+![Parts Image 3](/images/oled-socket.png){: width="400" }
 
+## Parts List
 
 1. 20 MX Style Switches of Your Choice
 2. 1x Plate
@@ -39,6 +40,7 @@ You should have the following parts before you start the build:
 13. 20 Keycaps of Your Choice
 14. 1x Case USB Mid Piece
 15. 1x OLED Cover
+16. 1x OLED Socket (Optional)
 
 
 ## Tool Overview
