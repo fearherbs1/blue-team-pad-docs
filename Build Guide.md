@@ -21,7 +21,7 @@ You should have the following parts before you start the build:
 
 ![Parts Image 2](/blue-team-pad-docs/images/part-overview-2.png){: width="800" }
 
-![Parts Image 3](/images/oled-socket.png){: width="400" }
+![Parts Image 3](/blue-team-pad-docs/images/oled-socket.png){: width="400" }
 
 ## Parts List
 
