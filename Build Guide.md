@@ -39,9 +39,8 @@ You should have the following parts before you start the build:
 12. 4x M2 Nuts
 13. 20 Keycaps of Your Choice
 14. 1x Case USB Mid Piece
-15. 1x OLED Cover
+15. 1x OLED Cover (Oled Socket Version or Standard Version)
 16. 1x OLED Socket (Optional)
-
 
 ## Tool Overview
 
@@ -172,11 +171,11 @@ Once all of the switches are inserted, double check one last time to ensure that
 ## Step 5: Soldering the OLED (no socket)
 
 {: .warning }
-If you chose purchase the OLED sockets, skip to step 5.1
+If you chose purchase an OLED socket, skip to step 5.1
 
 Before we solder our OLED, lets install the OLED cover. This will help protect the OLED from damage after installation.
 
-First remove the protective film from the OLED. in this case it looks like a screen protector with a green pull tab.
+First remove the protective film from the OLED. In this case it looks like a screen protector with a green pull tab.
 
 ![OLED Screen Protector](/blue-team-pad-docs/images/oled-screen-protector.jpg){: width="600" }
 
@@ -205,6 +204,13 @@ Then solder the 4 OLED pins to the PCB as shown below:
 
 
 ## Step 5.1: Soldering the OLED (socket)
+
+Before we solder our OLED, lets install the OLED cover. This will help protect the OLED from damage after installation.
+
+First remove the protective film from the OLED. In this case it looks like a screen protector with a green pull tab.
+
+![OLED Screen Protector](/blue-team-pad-docs/images/oled-screen-protector.jpg){: width="600" }
+
 {: .warning }
 Be sure to install the OLED cover with the correct orientation! If installed incorrectly, the OLED CAN be damaged! (2 OLEDs were broken in the process of prototyping this part)
 
@@ -215,7 +221,6 @@ If you look at the inside of the OLED cover closely, you will notice that the in
 Then install the socket on the OLED by pressing it into the socket as shown below:
 
 ![OLED In Socket](/blue-team-pad-docs/images/oled-in-socket.png){: width="600" }
-
 
 Then place the OLED into the OLED cover by first inserting the side without pins into the cover so the ribbon cable slots into the aforementioned notch:
 

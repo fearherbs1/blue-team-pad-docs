@@ -19,7 +19,6 @@ Download the latest VIAL firmware by clicking the button below:
 
 [Download VIAL Firmware](https://github.com/fearherbs1/blue-team-pad/releases/download/v1.1/fearherbs1_blue_team_pad_vial.uf2){: .btn .btn-blue }
 
-
 For more firmware options visit the [Github Releases Page](https://github.com/fearherbs1/blue-team-pad/releases).
 
 ## Verify Download (Optional but recommended)
@@ -34,6 +33,7 @@ Mac:
 ```zsh
 shasum -a 256 fearherbs1_blue_team_pad_vial.uf2
 ```
+
 Linux:
 
 ```bash
@@ -46,13 +46,12 @@ Windows Powershell:
 get-filehash -Algorithm SHA256 .\fearherbs1_blue_team_pad_vial.uf2
 ```
 
-
 ## Flashing
 
 Now that we have our firmware, we need to enter the boot-loader.
 
 {: .warning }
-Entering the boot-loader will erase any existing firmware on the device as well as clear any keymap changes you may have made. If you have any custom keymaps or settings, make sure to back them up before proceeding. You can can save your keymap by following the instructions [Here](/blue-team-pad-docs/usage-guide/configuration/#saving-a-layout).
+Entering the boot-loader will clear any keymap changes you may have made and macros you may have saved. If you have any custom keymaps or settings, make sure to back them up before proceeding. You can can save your keymap by following the instructions [Here](/blue-team-pad-docs/usage-guide/configuration/#saving-a-layout).
 
 To do this, hold down the left knob and plug the device into your computer.
 
